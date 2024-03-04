@@ -13,6 +13,43 @@ menu:
 
 **Note:** Follow [@ApacheAirflow](https://twitter.com/ApacheAirflow) on Twitter for the latest news and announcements!
 
+# February 26, 2024
+
+We’ve just released Apache **Airflow 2.8.2**.
+
+📦 PyPI: https://pypi.org/project/apache-airflow/2.8.2/ \
+📚 Docs: https://airflow.apache.org/docs/apache-airflow/2.8.2 \
+🛠️ Release Notes: https://airflow.apache.org/docs/apache-airflow/2.8.2/release_notes.html \
+🪶 Sources: https://airflow.apache.org/docs/apache-airflow/2.8.2/installation/installing-from-sources.html
+
+
+# February 12, 2024
+
+We've just released Apache **Airflow Helm chart 1.12.0**.
+
+📦 ArtifactHub: https://artifacthub.io/packages/helm/apache-airflow/airflow \
+📚 Docs: https://airflow.apache.org/docs/helm-chart/1.12.0/ \
+🛠️ Release Notes: https://airflow.apache.org/docs/helmrchart/1.12.0/release_notes.html \
+🪶 Sources: https://airflow.apache.org/docs/helm-chart/1.12.0/installing-helm-chart-from-sources.html
+
+# January 19, 2024
+
+We’ve just released Apache **Airflow 2.8.1**.
+
+📦 PyPI: https://pypi.org/project/apache-airflow/2.8.1/ \
+📚 Docs: https://airflow.apache.org/docs/apache-airflow/2.8.1 \
+🛠️ Release Notes: https://airflow.apache.org/docs/apache-airflow/2.8.1/release_notes.html \
+🪶 Sources: https://airflow.apache.org/docs/apache-airflow/2.8.1/installation/installing-from-sources.html
+
+# December 18, 2023
+
+We’ve just released Apache **Airflow 2.8.0**.
+
+📦 PyPI: https://pypi.org/project/apache-airflow/2.8.0/ \
+📚 Docs: https://airflow.apache.org/docs/apache-airflow/2.8.0 \
+🛠️ Release Notes: https://airflow.apache.org/docs/apache-airflow/2.8.0/release_notes.html \
+🪶 Sources: https://airflow.apache.org/docs/apache-airflow/2.8.0/installation/installing-from-sources.html
+
 # November 06, 2023
 
 We’ve just released Apache **Airflow 2.7.3**.

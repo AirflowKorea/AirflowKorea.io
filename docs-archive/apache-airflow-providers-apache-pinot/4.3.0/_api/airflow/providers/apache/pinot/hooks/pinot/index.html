@@ -760,7 +760,7 @@ Otherwise, the result is evaluated as a failure if “Error” or
 <dl class="py class">
 <dt class="sig sig-object py" id="airflow.providers.apache.pinot.hooks.pinot.PinotDbApiHook">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">airflow.providers.apache.pinot.hooks.pinot.</span></span><span class="sig-name descname"><span class="pre">PinotDbApiHook</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">schema</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_sql</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../../../../../../_modules/airflow/providers/apache/pinot/hooks/pinot.html#PinotDbApiHook"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#airflow.providers.apache.pinot.hooks.pinot.PinotDbApiHook" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="/docs/apache-airflow-providers-common-sql/stable/_api/airflow/providers/common/sql/hooks/sql/index.html#airflow.providers.common.sql.hooks.sql.DbApiHook" title="(in apache-airflow-providers-common-sql v1.8.1)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">airflow.providers.common.sql.hooks.sql.DbApiHook</span></code></a></p>
+<dd><p>Bases: <a class="reference external" href="/docs/apache-airflow-providers-common-sql/stable/_api/airflow/providers/common/sql/hooks/sql/index.html#airflow.providers.common.sql.hooks.sql.DbApiHook" title="(in apache-airflow-providers-common-sql v1.10.1)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">airflow.providers.common.sql.hooks.sql.DbApiHook</span></code></a></p>
 <p>Interact with Pinot Broker Query API.</p>
 <p>This hook uses standard-SQL endpoint since PQL endpoint is soon to be deprecated.
 <a class="reference external" href="https://docs.pinot.apache.org/users/api/querying-pinot-using-standard-sql">https://docs.pinot.apache.org/users/api/querying-pinot-using-standard-sql</a></p>
@@ -861,6 +861,8 @@ done in a new transaction.</p>
 <li><p><strong>commit_every</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.12)"><em>int</em></a>) – The maximum number of rows to insert in one
 transaction. Set to 0 to insert all rows in one transaction.</p></li>
 <li><p><strong>replace</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.12)"><em>bool</em></a>) – Whether to replace instead of insert</p></li>
+<li><p><strong>executemany</strong> – Insert all rows at once in chunks defined by the commit_every parameter, only
+works if all rows have same number of column names but leads to better performance</p></li>
 </ul>
 </dd>
 </dl>

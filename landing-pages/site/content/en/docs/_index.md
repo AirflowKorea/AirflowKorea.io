@@ -19,6 +19,8 @@ Apache Airflow Core, which includes webserver, scheduler, CLI and other componen
 Providers packages include integrations with third party projects. They are versioned and released independently of the Apache Airflow core.
 [Read the documentation >>](/docs/apache-airflow-providers/index.html)
 
+### Active providers
+
 {{< rawhtml >}}
 
 <ul class="list-providers">
@@ -43,6 +45,8 @@ Providers packages include integrations with third party projects. They are vers
 
   <li><a href="/docs/apache-airflow-providers-apache-hive/stable/index.html"><code>Apache Hive</code></a></li>
 
+  <li><a href="/docs/apache-airflow-providers-apache-impala/stable/index.html"><code>Apache Impala</code></a></li>
+
   <li><a href="/docs/apache-airflow-providers-apache-kafka/stable/index.html"><code>Apache Kafka</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-apache-kylin/stable/index.html"><code>Apache Kylin</code></a></li>
@@ -55,8 +59,6 @@ Providers packages include integrations with third party projects. They are vers
 
   <li><a href="/docs/apache-airflow-providers-apache-spark/stable/index.html"><code>Apache Spark</code></a></li>
 
-  <li><a href="/docs/apache-airflow-providers-apache-sqoop/stable/index.html"><code>Apache Sqoop</code></a></li>
-
   <li><a href="/docs/apache-airflow-providers-apprise/stable/index.html"><code>Apprise</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-arangodb/stable/index.html"><code>ArangoDB</code></a></li>
@@ -67,13 +69,15 @@ Providers packages include integrations with third party projects. They are vers
 
   <li><a href="/docs/apache-airflow-providers-celery/stable/index.html"><code>Celery</code></a></li>
 
+  <li><a href="/docs/apache-airflow-providers-cloudant/stable/index.html"><code>Cloudant</code></a></li>
+
   <li><a href="/docs/apache-airflow-providers-cncf-kubernetes/stable/index.html"><code>CNCF Kubernetes</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-cohere/stable/index.html"><code>Cohere</code></a></li>
 
-  <li><a href="/docs/apache-airflow-providers-common-sql/stable/index.html"><code>Common SQL</code></a></li>
+  <li><a href="/docs/apache-airflow-providers-common-io/stable/index.html"><code>Common IO</code></a></li>
 
-  <li><a href="/docs/apache-airflow-providers-daskexecutor/stable/index.html"><code>Dask Executor</code></a></li>
+  <li><a href="/docs/apache-airflow-providers-common-sql/stable/index.html"><code>Common SQL</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-databricks/stable/index.html"><code>Databricks</code></a></li>
 
@@ -117,9 +121,9 @@ Providers packages include integrations with third party projects. They are vers
 
   <li><a href="/docs/apache-airflow-providers-microsoft-azure/stable/index.html"><code>Microsoft Azure</code></a></li>
 
-  <li><a href="/docs/apache-airflow-providers-microsoft-psrp/stable/index.html"><code>Microsoft PowerShell Remoting Protocol (PSRP)</code></a></li>
-
   <li><a href="/docs/apache-airflow-providers-microsoft-mssql/stable/index.html"><code>Microsoft SQL Server (MSSQL)</code></a></li>
+
+  <li><a href="/docs/apache-airflow-providers-microsoft-psrp/stable/index.html"><code>Microsoft PowerShell Remoting Protocol (PSRP)</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-microsoft-winrm/stable/index.html"><code>Microsoft Windows Remote Management (WinRM)</code></a></li>
 
@@ -131,9 +135,9 @@ Providers packages include integrations with third party projects. They are vers
 
   <li><a href="/docs/apache-airflow-providers-odbc/stable/index.html"><code>ODBC</code></a></li>
 
-  <li><a href="/docs/apache-airflow-providers-openfaas/stable/index.html"><code>OpenFaaS</code></a></li>
-
   <li><a href="/docs/apache-airflow-providers-openai/stable/index.html"><code>OpenAI</code></a></li>
+
+  <li><a href="/docs/apache-airflow-providers-openfaas/stable/index.html"><code>OpenFaaS</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-openlineage/stable/index.html"><code>OpenLineage</code></a></li>
 
@@ -147,8 +151,6 @@ Providers packages include integrations with third party projects. They are vers
 
   <li><a href="/docs/apache-airflow-providers-papermill/stable/index.html"><code>Papermill</code></a></li>
 
-  <li><a href="/docs/apache-airflow-providers-plexus/stable/index.html"><code>Plexus</code></a></li>
-
   <li><a href="/docs/apache-airflow-providers-pgvector/stable/index.html"><code>PgVector</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-pinecone/stable/index.html"><code>Pinecone</code></a></li>
@@ -157,7 +159,7 @@ Providers packages include integrations with third party projects. They are vers
 
   <li><a href="/docs/apache-airflow-providers-presto/stable/index.html"><code>Presto</code></a></li>
 
-  <li><a href="/docs/apache-airflow-providers-qubole/stable/index.html"><code>Qubole</code></a></li>
+  <li><a href="/docs/apache-airflow-providers-qdrant/stable/index.html"><code>Qdrant</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-redis/stable/index.html"><code>Redis</code></a></li>
 
@@ -183,11 +185,13 @@ Providers packages include integrations with third party projects. They are vers
 
   <li><a href="/docs/apache-airflow-providers-ssh/stable/index.html"><code>SSH</code></a></li>
 
-  <li><a href="/docs/apache-airflow-providers-tabular/stable/index.html"><code>Tabular</code></a></li>
-
   <li><a href="/docs/apache-airflow-providers-tableau/stable/index.html"><code>Tableau</code></a></li>
 
+  <li><a href="/docs/apache-airflow-providers-tabular/stable/index.html"><code>Tabular</code></a></li>
+
   <li><a href="/docs/apache-airflow-providers-telegram/stable/index.html"><code>Telegram</code></a></li>
+
+  <li><a href="/docs/apache-airflow-providers-teradata/stable/index.html"><code>Teradata</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-trino/stable/index.html"><code>Trino</code></a></li>
 
@@ -198,6 +202,44 @@ Providers packages include integrations with third party projects. They are vers
   <li><a href="/docs/apache-airflow-providers-yandex/stable/index.html"><code>Yandex</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-zendesk/stable/index.html"><code>Zendesk</code></a></li>
+
+</ul>
+
+{{< /rawhtml >}}
+
+
+### Suspended providers
+
+These providers are currently suspended from releases and we are not actively testing their compatibility with
+latest Airflow releases. You can still use the released versions of these providers if you need to and in case
+the reason for suspension is resolved, the provider might be resumed by a PR of a community member who will
+resolve the suspension reason. It the provider is suspended for quite some time, the community might make a
+decision about removing it.
+
+More about the suspension/resuming process can be found in the
+[Community provider's lifecycle documentation](https://github.com/apache/airflow/blob/main/PROVIDERS.rst#community-providers-lifecycle) page.
+
+* No suspended providers at the moment
+
+### Removed providers
+
+These providers are no longer supported and have been removed from the codebase, you can however still
+use the released versions of these providers if you need to.
+
+More about the removal process can be found in the
+[Community provider's lifecycle documentation](https://github.com/apache/airflow/blob/main/PROVIDERS.rst#community-providers-lifecycle) page.
+
+{{< rawhtml >}}
+
+<ul class="list-providers">
+
+  <li><a href="/docs/apache-airflow-providers-apache-sqoop/stable/index.html"><code>Apache Sqoop</code></a></li>
+
+  <li><a href="/docs/apache-airflow-providers-daskexecutor/stable/index.html"><code>Dask Executor</code></a></li>
+
+  <li><a href="/docs/apache-airflow-providers-plexus/stable/index.html"><code>Plexus</code></a></li>
+
+  <li><a href="/docs/apache-airflow-providers-qubole/stable/index.html"><code>Qubole</code></a></li>
 
 </ul>
 
