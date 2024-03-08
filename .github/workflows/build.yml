@@ -171,7 +171,7 @@ jobs:
       - name: 🚀 Create releases on GitHub
         working-directory: sphinx_airflow_theme
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
           GITHUB_COMMIT: ${{ github.sha }}
           GITHUB_REF: ${{ github.ref }}
         if: >
