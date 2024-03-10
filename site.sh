@@ -19,7 +19,7 @@
 set -euo pipefail
 
 WORKING_DIR="$(pwd)"
-MY_DIR="$(cd "$(dirname "$0")" && pwd)"
+MY_DIR="$(cd "$(dirname "$0")" && pwd)/airflow-site/"
 
 function log {
     echo -e "$(date +'%Y-%m-%d %H:%M:%S'):INFO: ${*} " >&2;
