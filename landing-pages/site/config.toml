@@ -15,7 +15,7 @@
 # specific language governing permissions and limitations
 # under the License.
 
-baseURL = "./"
+baseURL = "https://choo121600.github.io/airflow-site/"
 title = "Apache Airflow"
 enableRobotsTXT = true
 
