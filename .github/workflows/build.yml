@@ -168,26 +168,26 @@ jobs:
           path: './sphinx_airflow_theme/demo/_build'
           if-no-files-found: error
           retention-days: 14
-      - name: 🚀 Create releases on GitHub
-        working-directory: sphinx_airflow_theme
-        env:
-          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-          GITHUB_COMMIT: ${{ github.sha }}
-          GITHUB_REF: ${{ github.ref }}
-        if: >
-          github.ref == 'refs/heads/main' && github.repository == 'choo121600/airflow-site' &&
-          github.event_name == 'push'
-        run: |
-          set -x
-          gh auth status
-          VERSION="$(python setup.py --version 2>/dev/null | tail -1)"
-          TITLE=$(date "+%Y-%m-%d %H:%M:%S")
-          NOTES="Commit: ${GITHUB_COMMIT}
-          Source: ${GITHUB_REF}"
+      # - name: 🚀 Create releases on GitHub
+      #   working-directory: sphinx_airflow_theme
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+      #     GITHUB_COMMIT: ${{ github.sha }}
+      #     GITHUB_REF: ${{ github.ref }}
+      #   if: >
+      #     github.ref == 'refs/heads/main' && github.repository == 'choo121600/airflow-site' &&
+      #     github.event_name == 'push'
+      #   run: |
+      #     set -x
+      #     gh auth status
+      #     VERSION="$(python setup.py --version 2>/dev/null | tail -1)"
+      #     TITLE=$(date "+%Y-%m-%d %H:%M:%S")
+      #     NOTES="Commit: ${GITHUB_COMMIT}
+      #     Source: ${GITHUB_REF}"
 
-          gh release delete "${VERSION}" -y || true
-          gh release create "${VERSION}" \
-            --title "${TITLE}" \
-            --notes "${NOTES}" \
-            ./dist/*
-          ../.github/scripts/print_df.sh
+      #     gh release delete "${VERSION}" -y || true
+      #     gh release create "${VERSION}" \
+      #       --title "${TITLE}" \
+      #       --notes "${NOTES}" \
+      #       ./dist/*
+      #     ../.github/scripts/print_df.sh
