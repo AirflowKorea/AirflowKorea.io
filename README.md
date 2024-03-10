@@ -17,7 +17,7 @@
  under the License.
 -->
 
-Apache Airflow KR website Test3
+Apache Airflow KR website Test
 ======================
 
 [![Build docs](https://github.com/apache/airflow-site/actions/workflows/build.yml/badge.svg)](https://github.com/apache/airflow-site/actions/workflows/build.yml)
