@@ -119,10 +119,10 @@
     "url": "https://www.meetup.com/taipei-py/"
   },
   {
-    "city": "Seoul",
+    "city": "Seoul",
     "country": "Korea",
     "date": "",
     "members": 52,
     "url": "https://www.meetup.com/apache-airflow-users-korea/"
-  }
+  },
 ]
