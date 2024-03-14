@@ -70,6 +70,13 @@
     "url": "https://www.meetup.com/Portland-Apache-Airflow-Meetup/"
   },
   {
+    "city": "Seoul",
+    "country": "Korea",
+    "date": "",
+    "members": 50,
+    "url": "https://www.meetup.com/apache-airflow-users-korea/"
+  },
+  {
     "city": "Tokyo",
     "country": "Japan",
     "date": "",
@@ -117,12 +124,5 @@
     "date": "",
     "members": 30,
     "url": "https://www.meetup.com/taipei-py/"
-  },
-  {
-    "city": "Seoul",
-    "country": "Korea",
-    "date": "",
-    "members": 52,
-    "url": "https://www.meetup.com/apache-airflow-users-korea/"
-  },
+  }
 ]
