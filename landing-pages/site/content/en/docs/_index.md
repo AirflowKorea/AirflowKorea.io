@@ -9,7 +9,7 @@ menu:
 
 # Documentation
 
-## [Apache Airflow™](/docs/apache-airflow/stable/index.html)
+## [Apache Airflow®](/docs/apache-airflow/stable/index.html)
 
 Apache Airflow Core, which includes webserver, scheduler, CLI and other components that are needed for minimal Airflow installation.
 [Read the documentation >>](/docs/apache-airflow/stable/index.html)
@@ -45,6 +45,8 @@ Providers packages include integrations with third party projects. They are vers
 
   <li><a href="/docs/apache-airflow-providers-apache-hive/stable/index.html"><code>Apache Hive</code></a></li>
 
+  <li><a href="/docs/apache-airflow-providers-apache-iceberg/stable/index.html"><code>Apache Iceberg</code></a></li>
+
   <li><a href="/docs/apache-airflow-providers-apache-impala/stable/index.html"><code>Apache Impala</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-apache-kafka/stable/index.html"><code>Apache Kafka</code></a></li>
@@ -75,6 +77,8 @@ Providers packages include integrations with third party projects. They are vers
 
   <li><a href="/docs/apache-airflow-providers-cohere/stable/index.html"><code>Cohere</code></a></li>
 
+  <li><a href="/docs/apache-airflow-providers-common-compat/stable/index.html"><code>Common Compat</code></a></li>
+
   <li><a href="/docs/apache-airflow-providers-common-io/stable/index.html"><code>Common IO</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-common-sql/stable/index.html"><code>Common SQL</code></a></li>
@@ -94,6 +98,8 @@ Providers packages include integrations with third party projects. They are vers
   <li><a href="/docs/apache-airflow-providers-elasticsearch/stable/index.html"><code>Elasticsearch</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-exasol/stable/index.html"><code>Exasol</code></a></li>
+
+  <li><a href="/docs/apache-airflow-providers-fab/stable/index.html"><code>FAB (Flask-AppBuilder)</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-facebook/stable/index.html"><code>Facebook</code></a></li>
 
@@ -185,9 +191,9 @@ Providers packages include integrations with third party projects. They are vers
 
   <li><a href="/docs/apache-airflow-providers-ssh/stable/index.html"><code>SSH</code></a></li>
 
-  <li><a href="/docs/apache-airflow-providers-tableau/stable/index.html"><code>Tableau</code></a></li>
+  <li><a href="/docs/apache-airflow-providers-standard/stable/index.html"><code>Standard</code></a></li>
 
-  <li><a href="/docs/apache-airflow-providers-tabular/stable/index.html"><code>Tabular</code></a></li>
+  <li><a href="/docs/apache-airflow-providers-tableau/stable/index.html"><code>Tableau</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-telegram/stable/index.html"><code>Telegram</code></a></li>
 
@@ -200,6 +206,8 @@ Providers packages include integrations with third party projects. They are vers
   <li><a href="/docs/apache-airflow-providers-weaviate/stable/index.html"><code>Weaviate</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-yandex/stable/index.html"><code>Yandex</code></a></li>
+
+  <li><a href="/docs/apache-airflow-providers-ydb/stable/index.html"><code>YDB</code></a></li>
 
   <li><a href="/docs/apache-airflow-providers-zendesk/stable/index.html"><code>Zendesk</code></a></li>
 
@@ -241,6 +249,8 @@ More about the removal process can be found in the
 
   <li><a href="/docs/apache-airflow-providers-qubole/stable/index.html"><code>Qubole</code></a></li>
 
+  <li><a href="/docs/apache-airflow-providers-tabular/stable/index.html"><code>Tabular</code></a></li>
+
 </ul>
 
 {{< /rawhtml >}}
@@ -258,7 +268,7 @@ your own deployments.
 Airflow has an official Helm Chart that will help you set up your own Airflow on a cloud/on-prem Kubernetes environment and leverage its scalable nature to support a large group of users. Thanks to Kubernetes, we are not tied to a specific cloud provider.
 [Read the documentation >>](/docs/helm-chart/stable/index.html)
 
-## [Python API Client](https://github.com/apache/airflow-client-python/blob/master/airflow_client/README.md)
+## [Python API Client](https://github.com/apache/airflow-client-python)
 
 Airflow releases official Python API client that can be used to easily interact with Airflow REST API from Python code.
 [See the client repository](https://github.com/apache/airflow-client-python)
