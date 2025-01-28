@@ -70,6 +70,10 @@ jobs:
         run: |
           pip install -r requirements.txt
           ./.github/scripts/print_df.sh
+      - name: Ensure cache directory exists and adjust permissions
+        run: |
+          mkdir -p /mnt/AirflowKorea.github.io/.cache/pre-commit
+          sudo chmod -R 777 /mnt/AirflowKorea.github.io/.cache/pre-commit
           
       - name: 🔎 Lint
         run: |
