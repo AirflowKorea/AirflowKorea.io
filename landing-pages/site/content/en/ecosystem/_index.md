@@ -11,7 +11,7 @@ menu:
 
 # Ecosystem
 
-These resources and services are not maintained, nor endorsed by the Apache Airflow™ Community and Apache Airflow project (maintained by the Committers and the Airflow PMC). Use them at your sole discretion. The community does not verify the licences nor validity of those tools, so it's your responsibility to verify them.
+These resources and services are not maintained, nor endorsed by the Apache Airflow® Community and Apache Airflow project (maintained by the Committers and the Airflow PMC). Use them at your sole discretion. The community does not verify the licences nor validity of those tools, so it's your responsibility to verify them.
 
 If you would you like to be included on this page, please reach out to the [Apache Airflow dev or user mailing list](https://airflow.apache.org/community/) and let us know or simply open a Pull Request to that page.
 
@@ -30,6 +30,8 @@ If you would you like to be included on this page, please reach out to the [Apac
 [The Complete Hands-On Introduction to Apache Airflow](https://www.udemy.com/course/the-complete-hands-on-course-to-master-apache-airflow) by Marc Lamberti on Udemy
 
 [Apache Airflow: Complete Hands-On Beginner to Advanced Class](https://www.udemy.com/course/apache-airflow-course) by Alexandra Abbas on Udemy
+
+[Data Pipelines with Apache Airflow](https://www.manning.com/books/data-pipelines-with-apache-airflow) and [Second Edition](https://www.manning.com/books/data-pipelines-with-apache-airflow-second-edition) Apache Airflow Books on Amazon
 
 &nbsp;
 
@@ -89,6 +91,16 @@ If you would you like to be included on this page, please reach out to the [Apac
 
 [Airflow DolphinDB Provider](https://github.com/dolphindb/airflow-provider-dolphindb) - Provides Hooks and Operators to run scripts with [DolphinDB](https://www.dolphindb.com).
 
+[Airflow TM1 Provider](https://github.com/airflow-provider-tm1/airflow-provider-tm1) - Provides Hook and Operators to simplify connecting to the IBM Cognos TM1 / Planning Analytics database over REST API.
+
+[Astronomer Cosmos](https://github.com/astronomer/astronomer-cosmos) - Run your dbt Core projects as Apache Airflow DAGs and Task Groups with a few lines of code.
+
+[Airflow OpenTelemetry Provider](https://github.com/howardyoo/airflow_otel_provider) - Provides Hook and EventListener which will generate traces, metrics, and logs in [OpenTelemetry](https://opentelemetry.io/) for your DAG runs.
+
+[Airflow Couchbase Provider](https://github.com/Couchbase-Ecosystem/airflow-providers-couchbase) - Provides Hook to seamlessly interact with Couchbase databases, execute queries, manage documents, and more.
+
+[Airflow SAP HANA Provider](https://github.com/j6takish/airflow-provider-sap-hana) - Provides Hook to interact with SAP HANA. Allows the use of the Airflow SQL Operators and database hook methods, including methods which interact with sqlalchemy.
+
 &nbsp;
 
 ## Async Providers
@@ -145,6 +157,8 @@ Apache Airflow releases the [Official Apache Airflow Community Chart](https://ai
 
 [CWL-Airflow](https://github.com/Barski-lab/cwl-airflow) - Python package to extend Apache-Airflow 1.10.11 functionality with CWL v1.2 support.
 
+[DAGify](https://github.com/GoogleCloudPlatform/dagify) - A Python tool which converts Control-M workflows to Airflow DAGs.
+
 [dag-factory](https://github.com/ajbosco/dag-factory) - A library for dynamically generating Apache Airflow DAGs from YAML configuration files.
 
 [Dag Dependencies viewer](https://github.com/ms32035/airflow-dag-dependencies) - A tool which creates a view to visualize dependencies between the Airflow DAGs
@@ -177,6 +191,8 @@ Apache Airflow releases the [Official Apache Airflow Community Chart](https://ai
 
 [Panda Patrol](https://github.com/aivanzhang/panda_patrol#-panda-patrol) - Test and profile your data right within your Airflow DAGs. With dashboards and alerts already pre-built.
 
+[PowerBI-Airflow-Plugin](https://github.com/ambika-garg/PowerBI_Airflow_Plugin) - The Airflow plugin for Power BI includes a custom Airflow operator designed to refresh Power BI datasets.
+
 [Pylint-Airflow](https://github.com/BasPH/pylint-airflow) - A Pylint plugin for static code analysis on Airflow code.
 
 [Redactics](https://www.redactics.com) - A managed appliance (built on Airflow) installed next to your databases that powers a growing collection of data management workflows.
@@ -195,10 +211,20 @@ Apache Airflow releases the [Official Apache Airflow Community Chart](https://ai
 
 [Airflow Template](https://github.com/angreal/airflow) - Template and commands for creating minimal airflow environments for rapid testing and prototyping.
 
+[airflow-priority](https://github.com/airflow-laminar/airflow-priority) - Priority Tags (P1, P2, etc) for Airflow DAGs with automated alerting to Datadog, New Relic, Slack, Discord, and more
+
+[airflow-config](https://github.com/airflow-laminar/airflow-config) - [Pydantic](https://pydantic.dev) / [Hydra](https://hydra.cc) based configuration system for DAG and Task arguments
+
+[airflow-supervisor](https://github.com/airflow-laminar/airflow-supervisor) - Easy-to-use [supervisor](http://supervisord.org) integration for long running or "always on" DAGs
+
 &nbsp;
 
 ## Airflow Provider System Test Dashboards
 
 [Amazon provider package health dashboard](https://aws-mwaa.github.io/open-source/system-tests/dashboard.html) - Dashboard listing all system tests within the Amazon provider package and their current health status: last execution status (succeeded/failed, average duration, ...).
 
+[Google provider package health dashboard](https://storage.googleapis.com/providers-dashboard-html/dashboard.html) - Dashboard listing all system tests within the Google provider package and their current health status
+
 [LLM Providers health dashboard](https://astronomer.github.io/llm-dags-dashboard) - Dashboard listing all system tests within the LLM provider packages and their current health status: execution status for last 7 runs(succeeded/failed, Execution date).
+
+[Teradata Provider health dashboard](https://teradata.github.io/airflow/) - Dashboard listing status of system tests for Teradata Provider and their current health status for last runs.
