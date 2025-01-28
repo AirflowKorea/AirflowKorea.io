@@ -35,7 +35,7 @@
     {{ partial "suggest-change" . }}
 </div>
 {{ partialCached "footer.html" . }}
-{{ partial "scripts.html" . }}
+{{ partialCached "scripts.html" . }}
 </body>
 {{ $script := .Site.Data.webpack.main }}
 {{ with $script.js }}

@@ -37,12 +37,10 @@ shuffleNodeChildren("#pmc-container");
 
 showMore("#committers-container", "#show-more-committers", 4);
 showMore("#pmc-container", "#show-more-pmcs", 4);
-showMore("#committers-container-no-desktop", "#show-more-committers-no-desktop", 4);
-showMore("#pmc-container-no-desktop", "#show-more-pmcs-no-desktop", 4);
 showMore(
-  "#testimonials-container",
-  "#show-more-testimonials",
-  4);
+  "#case-studies-container",
+  "#show-more-case-studies",
+  window.innerWidth < 1920 ? 8 : 15);
 
 handleActiveVideo();
 

@@ -18,11 +18,7 @@
 */}}
 
 <div class="td-content">
-    {{ if .Params.quote }}
-      {{ partial "quote" .Params }}
-    {{ else if .Params.usecasedescription }}
-      {{ partial "usecasedescription" .Params }}
-    {{ end }}
+    {{ partial "quote" .Params}}
     {{ with .Params.description }}
     <div class="lead">{{ . | markdownify }}</div>{{ end }}
     <div class="markdown-content">
